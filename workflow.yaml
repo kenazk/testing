@@ -2,7 +2,7 @@ steps:
 - name: tesing 
   image: projectnebula/core
   spec:
-    test: "hello"
+    test: "hello everyone"
   input:
   - |
       test=$(ni get -p {.test})
