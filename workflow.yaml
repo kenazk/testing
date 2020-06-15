@@ -1,0 +1,9 @@
+steps:
+- name: tesing 
+  image: projectnebula/core
+  spec:
+    test: "hello"
+  input:
+  - |
+      test=$(ni get -p {.test})
+      echo $test
